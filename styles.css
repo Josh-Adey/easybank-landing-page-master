@@ -1,0 +1,66 @@
+:root {
+    --Dark-Blue: hsl(233, 26%, 24%);
+    --Bright-Cyan: hsl(192, 70%, 51%);
+    --Lime-Green: hsl(136, 65%, 51%);
+    --Grayish-Blue: hsl(233, 8%, 62%);
+    --Light-Grayish-Blue: hsl(220, 16%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+   margin: 0; 
+   font-size: 18px;
+   font-family: 'Public Sans', sans-serif;
+}
+#main-container{
+    width: 80%;
+    margin: 8px auto;
+    align-items: center;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: var(--White);
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10rem 0 0;
+    color: var(--Grayish-Blue);
+}
+.nav-item{
+    margin: 0 0.6rem 0 0;
+}
+.right {
+    background: linear-gradient(
+     to right,
+     var(--Lime-Green),
+     var(--Bright-Cyan)
+      );
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+    width: 11rem;
+    height: 3rem;
+}
+.invite-nav{
+    margin: auto;
+}
+.invite-link{
+    color: var(--White);
+}
