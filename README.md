@@ -27,6 +27,7 @@ Users should be able to:
 - See hover states for interactive elements
 - view full content of the webpage on any screensize at a glance
 
+## Links
 [live site](https://josh-adey.github.io/easybank-landing-page-master/).
 
 ##Process
