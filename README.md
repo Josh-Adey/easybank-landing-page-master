@@ -1,4 +1,4 @@
-##  The xx-project of the 30-portfolio_projects challenge.
+#  The xx-project of the 30-portfolio_projects challenge.
 
 
 
@@ -26,6 +26,8 @@ Users should be able to:
 
 - See hover states for interactive elements
 - view full content of the webpage on any screensize at a glance
+
+[live site](https://josh-adey.github.io/easybank-landing-page-master/).
 
 ##Process
 The nav bar for the mobile version 
