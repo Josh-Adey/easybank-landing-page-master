@@ -26,3 +26,8 @@ Users should be able to:
 
 - See hover states for interactive elements
 - view full content of the webpage on any screensize at a glance
+
+##Process
+The nav bar for the mobile version 
+-fixing the logo image
+- fixing the toggler and toggler items
