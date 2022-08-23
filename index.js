@@ -1,13 +1,15 @@
-var toggleOn = document.querySelector("nav-items");
-var toggleOff = document.querySelector("img");
+let toggleDisplay = document.querySelector(".mobile-nav-items");
+let clicked = false;
 
 function toggleSwitch() {
-    let toggleDisplay = toggleOn.style.display; 
-    if ( toggleDisplay == "none")
-    {
-        toggleDisplay = "block";
+ 
+    if (clicked) {
+
+        toggleDisplay.style.display = "block";
+        clicked = false;
     }
-    else if (toggleDisplay == "block") {
-        toggleDisplay = "none";
+    else {
+        toggleDisplay.style.display = "none";
+        clicked = true;
     }
 }
