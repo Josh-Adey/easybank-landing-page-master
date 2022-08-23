@@ -28,6 +28,17 @@ Users should be able to:
 - view full content of the webpage on any screensize at a glance
 
 ##Process
+The nav bar for desktop
+  - Gave the logo div a min width and flexed the nav bar 
+
 The nav bar for the mobile version 
 -fixing the logo image
 - fixing the toggler and toggler items
+The Header section
+ 
+The main section
+
+- section 2 needs a flex container which contains 4 flex containers.
+- each of the 4 flex containers also needs a flex container for 2 boxes. 
+the footer section
+- footer needs a flex container which has 4 flex containers each of which has a column flex
