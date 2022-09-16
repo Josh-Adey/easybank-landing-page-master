@@ -262,7 +262,6 @@ margin-bottom: 2rem;
         height: 35vh;
         margin: auto;
         display: flex;
-        
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -349,7 +348,7 @@ margin-bottom: 2rem;
         font-size: 1.4rem;
         margin: 1.4rem auto;
         background-color: var(--White);
-        box-shadow: 6px -55px 827px var(--Grayish-Blue);
+        box-shadow: 6px 25px 200px 90px var(--Dark-Blue);
     }
    
     .nav-item{
@@ -408,16 +407,18 @@ margin-bottom: 2rem;
         display: flex;
         flex-direction: column;
     }
-        
+     .section-1 h1{
+        text-align: center;
+     }
     .header{
         display: flex;
         flex-direction: column-reverse;
         align-items: space-between;
 
         width: 85%;
-    height: 650px;
+    height: 655px;
     margin-top: auto;
-    margin-bottom: 52px;
+    margin-bottom: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -509,6 +510,20 @@ margin-bottom: 2rem;
         margin: 20px auto;
        
     }
+
+    .mid-section-1 .feature-header {
+        text-align: center;
+    }
+
+    .mid-section-1 img{
+        width: 25%;
+
+    }
+
+    .mid-section-1 .feature-text {
+        text-align: center;
+    }
+
     .feature-card h3{
         color: var(--Dark-Blue);
         font-weight: 400;  
@@ -527,9 +542,17 @@ margin-bottom: 2rem;
     }
 
     .mid-section-2 .feature-cards .feature-text{
-        padding: 10% ;
+        padding: 3%;
     }
-    
+    .mid-section-2 .feature-header{
+        margin: 4rem auto 0px auto;
+    }
+
+
+    .mid-section-2 .feature-text span{
+        font-size: 80%;
+        color: var(--Grayish-Blue);
+    }
     footer{
         background-color: var(--Dark-Blue);
         width: 100%;
