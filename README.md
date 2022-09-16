@@ -27,7 +27,10 @@ Users should be able to:
 - See hover states for interactive elements
 - view full content of the webpage on any screensize at a glance
 
-##Process
+### Links
+- [live website preview] (https://josh-adey.github.io/easybank-landing-page-master/) 
+
+## Process
 The nav bar for desktop
   - Gave the logo div a min width and flexed the nav bar 
 
@@ -41,4 +44,4 @@ The main section
 - section 2 was given a flex container which contains 4 flex containers.
 - each of the 4 flex containers also has a flex container for 2 boxes. 
 the footer section
-- footer needs a flex container which has 4 flex containers each of which has a column flex
+- footer is with a flex container which has 4 flex containers each of which has a column flex.
