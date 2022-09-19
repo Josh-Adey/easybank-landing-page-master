@@ -75,6 +75,12 @@ p{
     margin: 0 1.5rem 0 0;
 }
 
+.nav-link{
+    padding: 0.8rem 0;
+
+    
+}
+
 .nav-link:hover{
     border-bottom: 2px solid var(--Lime-Green);
 }
@@ -92,8 +98,13 @@ p{
     height: 3rem;
 }
 
-.invite-button a:hover{
-    color: var(--Lime-Green);
+.invite-button:hover{
+
+    background: linear-gradient(
+     to right,
+     var(--Grayish-Blue),
+     var(--Bright-Cyan)
+      );
 }
 
 .invite-link{
@@ -378,6 +389,11 @@ margin-bottom: 2rem;
    
     .nav-item{
         padding-bottom: 1rem;
+    }
+
+    .nav-link:hover{
+        color: var(--Lime-Green);
+        border-bottom: 0 none grey ;
     }
 
     .logo{
