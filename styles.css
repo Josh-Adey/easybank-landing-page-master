@@ -69,10 +69,16 @@ p{
     align-items: center;
     margin: 0 10rem 0 0;
     color: var(--Grayish-Blue);
+    height: 60px;
 }
 .nav-item{
     margin: 0 1.5rem 0 0;
 }
+
+.nav-link:hover{
+    border-bottom: 2px solid var(--Lime-Green);
+}
+
 .invite-button {
     background: linear-gradient(
      to right,
@@ -84,6 +90,10 @@ p{
       align-items: center;
     width: 11rem;
     height: 3rem;
+}
+
+.invite-button a:hover{
+    color: var(--Lime-Green);
 }
 
 .invite-link{
@@ -181,7 +191,13 @@ p{
     width: 100%;
 
 }
-
+.title:hover{
+    color: var(--Lime-Green);
+}
+.mid-section-2 .feature-text span{
+    font-size: 80%;
+    color: var(--Grayish-Blue);
+}
 footer{
     background-color: var(--Dark-Blue);
     width: 100%;
@@ -192,6 +208,10 @@ footer{
     padding: 4rem 6rem;
     height: 32vh;
     
+}
+
+.author{
+
 }
 .icon-logo{
     width: 25%;
@@ -211,6 +231,7 @@ margin-bottom: 2rem;
 
 .footer-links{
     display: block;
+
 }
 
 .footer-link{
@@ -222,6 +243,10 @@ margin-bottom: 2rem;
     color: var(--White);
     text-decoration: none;
 }
+ .footer-link a:hover{
+    color: var(--Lime-Green);
+}
+
 
 .footer-stock{
     display: flex;
@@ -553,6 +578,11 @@ margin-bottom: 2rem;
         font-size: 80%;
         color: var(--Grayish-Blue);
     }
+    
+    .title:hover{
+        color: var(--Lime-Green);
+    }
+    
     footer{
         background-color: var(--Dark-Blue);
         width: 100%;
