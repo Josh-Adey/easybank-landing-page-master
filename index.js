@@ -1,19 +1,26 @@
 let toggleDisplay = document.querySelector(".mobile-nav-items");
+let close = document.querySelector(".icon-hamburger");
 let clicked = false;
 
 
 function toggleSwitch() {
  
-    if (clicked) {
+    if (!clicked) {
 
-        toggleDisplay.style.display = "block";
-        clicked = false;
-
+      
+      setTimeout(function () {
+          toggleDisplay.style.display = "block";
+        }, 10);
+      clicked = true;
+      close.style.backgroundImage = "url(images/icon-close.svg)";
     }
     else {
-        toggleDisplay.style.display = "none";
-        clicked = true;
-        
+        setTimeout(function () {
+          toggleDisplay.style.display = "none";
+        }, 10);
+        clicked = false;
+        close.style.backgroundImage = "url(images/icon-hamburger.svg)";
         
     }
 }
+
