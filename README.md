@@ -2,8 +2,6 @@
 
 
 
-  
-
 ## Table of contents
 
 - [Overview]
@@ -28,7 +26,7 @@ Users should be able to:
 - view full content of the webpage on any screensize at a glance
 
 ### Links
-- [live website preview] (https://josh-adey.github.io/easybank-landing-page-master/) 
+- [live website preview](https://josh-adey.github.io/easybank-landing-page-master/) 
 
 ## Process
 The nav bar for desktop
